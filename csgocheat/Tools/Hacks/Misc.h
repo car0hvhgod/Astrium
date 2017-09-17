@@ -260,10 +260,12 @@ public:
 		if (!Options.Misc.Misc2.bChatSpam)
 			return;
 
-		/*std::vector<std::string> chatspam2 =
+		std::vector<std::string> chatspam2 =
 		{
-			Insert pChatSpam Here
-		};*/
+			"Insert",
+			"pChatSpam",
+			"Here"
+		};
 
 
 		if (GetTickCount() - lastspammed > 800)
