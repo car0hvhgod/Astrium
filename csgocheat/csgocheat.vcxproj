@@ -283,7 +283,6 @@
     <ClCompile Include="Tools\Menu\Controls.cpp" />
     <ClCompile Include="Tools\Menu\Menu.cpp" />
     <ClCompile Include="Tools\Menu\SettingsManager.cpp" />
-    <ClCompile Include="writer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Font Include="undefeated.ttf" />
