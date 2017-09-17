@@ -91,27 +91,27 @@ public:
 			int value = ServerTime % 21;
 			// !<>-_\\/[]{}$#________$$$$
 			switch (value) {
-			case 0: SetClanTag("Astrium.cc", "Astrium.cc"); break;
-			case 1: SetClanTag("=s&r/u}.cc", "=s&r/u}.cc"); break;
-			case 2: SetClanTag("As_(i&m.cc", "As_(i&m.cc"); break;
-			case 3: SetClanTag("?s=riu}.cc", "?s=riu}.cc"); break;
-			case 4: SetClanTag("Astrium.cc", "Astrium.cc"); break;
-			case 5: SetClanTag("$´ri?m.cc", "$´ri?m.cc"); break;
-			case 6: SetClanTag(".s&ri%m.cc", ".s&ri%m.cc"); break;
-			case 7: SetClanTag("A§t!]u,.cc", "A§t!]u,.cc"); break;
-			case 8: SetClanTag("Astrium.cc", "Astrium.cc"); break;
-			case 9: SetClanTag("A/t~[u}m.cc", "A/t~[u}m.cc"); break;
-			case 10:SetClanTag("#s*ri§&.cc", "#s*ri§&.cc"); break;
-			case 11:SetClanTag("A+/ri)m.cc", "A+/ri)m.cc"); break;
-			case 12:SetClanTag("Astrium.cc", "Astrium.cc"); break;
-			case 13:SetClanTag("A&t§=um.cc", "A&t§=um.cc"); break;
-			case 14:SetClanTag("A!t&i%m.cc", "A!t&i%m.cc"); break;
-			case 15:SetClanTag("As[r}[m.cc", "As[r}[m.cc"); break;
-			case 16:SetClanTag("Astrium.cc", "Astrium.cc"); break;
-			case 17:SetClanTag("Ast}i?\.cc", "Ast}i?\.cc"); break;
-			case 18:SetClanTag("A]t³i\m.cc", "A]t³i\m.cc"); break;
-			case 19:SetClanTag("A(%ri/m.cc", "A(%ri/m.cc"); break;
-			case 20:SetClanTag("Astrium.cc", "Astrium.cc"); break;
+			case 0: SetClanTag("Astrium", "Astrium"); break;
+			case 1: SetClanTag("=s&r/u}", "=s&r/u}"); break;
+			case 2: SetClanTag("As_(i&m", "As_(i&m"); break;
+			case 3: SetClanTag("?s=riu}", "?s=riu}"); break;
+			case 4: SetClanTag("Astrium", "Astrium"); break;
+			case 5: SetClanTag("$´ri?m., "$´ri?m"); break;
+			case 6: SetClanTag(".s&ri%m", ".s&ri%m"); break;
+			case 7: SetClanTag("A§t!]u,", "A§t!]u,"); break;
+			case 8: SetClanTag("Astrium", "Astrium); break;
+			case 9: SetClanTag("A/t~[u}", "A/t~[u}m"); break;
+			case 10:SetClanTag("#s*ri§&", "#s*ri§&"); break;
+			case 11:SetClanTag("A+/ri)m", "A+/ri)m"); break;
+			case 12:SetClanTag("Astrium", "Astrium"); break;
+			case 13:SetClanTag("A&t§=um", "A&t§=um"); break;
+			case 14:SetClanTag("A!t&i%m", "A!t&i%m"); break;
+			case 15:SetClanTag("As[r}[m", "As[r}[m"); break;
+			case 16:SetClanTag("Astrium", "Astrium"); break;
+			case 17:SetClanTag("Ast}i?\", "Ast}i?\"); break;
+			case 18:SetClanTag("A]t³i\m", "A]t³i\m"); break;
+			case 19:SetClanTag("A(%ri/m", "A(%ri/m"); break;
+			case 20:SetClanTag("Astrium", "Astrium"); break;
 			}
 			counter++;
 		}
@@ -129,7 +129,7 @@ public:
 			std::vector< string > Strings =
 			{
 				string("Astrium"),
-				string("Astrium.cc"),
+				string("Astrium"),
 				string("\n"),
 				string("\t\t\t\t"),
 				string(":)\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t")
@@ -174,12 +174,12 @@ public:
 		case 1:
 			if (Spam)
 			{
-				setName("\x01\x0B\x0D""A""\x0D""S""\x0D""T""\x0D""R""\x0D""I""\x0D""U""\x0D""M""\x0D"".""\x0D""C""\x0D""C""\x0D ");
+				setName("\x01\x0B\x0D""A""\x0D""S""\x0D""T""\x0D""R""\x0D""I""\x0D""U""\x0D""M""\x0D"");
 				Spam = false;
 			}
 			else
 			{
-				setName(" \x01\x0B\x0D""A""\x0D""S""\x0D""T""\x0D""R""\x0D""I""\x0D""U""\x0D""M""\x0D"".""\x0D""C""\x0D""C""\x0D");
+				setName(" \x01\x0B\x0D""A""\x0D""S""\x0D""T""\x0D""R""\x0D""I""\x0D""U""\x0D""M""\x0D"");
 				Spam = true;
 			}
 			Spam != Spam;
@@ -187,12 +187,12 @@ public:
 		case 2:
 			if (Spam)
 			{
-				setName(" Astrium.cc");
+				setName(" Astrium");
 				Spam = false;
 			}
 			else
 			{
-				setName("Astrium.cc ");
+				setName("Astrium ");
 				Spam = true;
 			}
 			Spam != Spam;
@@ -261,10 +261,7 @@ public:
 
 		std::vector<std::string> chatspam2 =
 		{
-			"get good - get Astrium.cc",
-			"Astrium.cc",
-			"Join us now. Astrium.cc",
-			"It's actually cringe to work for this cheat and write this message c:"
+			"Insert pChatSpam Here"
 		};
 
 
