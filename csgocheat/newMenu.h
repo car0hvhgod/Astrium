@@ -136,7 +136,7 @@ const char* iFakeLag[] =
 const char* iClanTag[] =
 {
 	"Astrium",
-	"Astrium.cc",
+	"Astrium",
 	"Invis Name",
 	"Scoreboard Rape 1",
 	"Scoreboard Rape 2"
@@ -153,7 +153,7 @@ const char* iNameSpam[] =
 {
 	"Off",
 	"Astrium Colored",
-	"Astrium.cc",
+	"Astrium",
 	"A S T R I U M",
 	"Weird Name",
 	"Crasher",
