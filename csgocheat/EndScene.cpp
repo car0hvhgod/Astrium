@@ -24,9 +24,6 @@ void Gui_Init(IDirect3DDevice9* pDevice)
 	auto& style = ImGui::GetStyle();
 
 	Global::fDefault = io.Fonts->AddFontFromFileTTF("C:\\Windows\\Fonts\\Verdana.ttf", 15.0f);
-
-	Global::fTabs = io.Fonts->AddFontFromFileTTF("C:\\Windows\\Fonts\\auifont.ttf", 62.0f);
-
 	Global::fSubTabs = io.Fonts->AddFontFromFileTTF("C:\\Windows\\Fonts\\AstriumWep.ttf", 25.0f);
 	static int hue = 140;
 
@@ -1052,10 +1049,10 @@ HRESULT __stdcall Hooked_EndScene(IDirect3DDevice9* pDevice)
 		style.Colors[ImGuiCol_ButtonHovered] = ImVec4(0.54, 0., 0.54, 1.f);
 		style.Colors[ImGuiCol_ButtonActive] = ImVec4(0.54, 0., 0.54, 1.f);
 		ImGui::SetNextWindowSize(ImVec2(800, 20));
-		ImGui::Begin("Astrium.cc", &Global::MenuOpen, ImVec2(800, 0), 1.f, ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoCollapse |  ImGuiWindowFlags_ShowBorders);
+		ImGui::Begin("Astrium", &Global::MenuOpen, ImVec2(800, 0), 1.f, ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoCollapse |  ImGuiWindowFlags_ShowBorders);
 		{
 			mainWindowPos = ImGui::GetWindowPos();
-			//ImGui::Button("Astrium.cc", ImVec2(798, 8));
+			//ImGui::Button("Astrium", ImVec2(798, 8));
 		}ImGui::End();
 
 		// Als Border machen wir ein 3-lagigen: farbe-grau
