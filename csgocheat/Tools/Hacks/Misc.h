@@ -262,9 +262,10 @@ public:
 
 		std::vector<std::string> chatspam2 =
 		{
-			"Insert",
-			"pChatSpam",
-			"Here"
+			"Chat Spam Here",
+			"Chat Spam Here",
+			"Chat Spam Here",
+			"Chat Spam Here"
 		};
 
 
