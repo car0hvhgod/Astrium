@@ -80,9 +80,9 @@ public:
 	{
 		if (!Interfaces.pEngine->IsConnected() || !Interfaces.pEngine->IsInGame())
 			return;
-		if (Options.Misc.Misc1.bClanTag && Options.Misc.Misc1.bCorruption)
+		/*if (Options.Misc.Misc1.bClanTag && Options.Misc.Misc1.bCorruption)
 		{
-			/*static int counter = 0;
+			static int counter = 0;
 			static int motion = 0;
 			int ServerTime = (float)Hacks.LocalPlayer->GetTickBase() * Interfaces.pGlobalVars->interval_per_tick;
 
@@ -90,7 +90,8 @@ public:
 				motion++;
 			int value = ServerTime % 21;
 			// !<>-_\\/[]{}$#________$$$$
-			switch (value) {
+			switch (value) 
+			{
 			case 0: SetClanTag("Astrium", "Astrium"); break;
 			case 1: SetClanTag("=s&r/u}", "=s&r/u}"); break;
 			case 2: SetClanTag("As_(i&m", "As_(i&m"); break;
@@ -113,8 +114,8 @@ public:
 			case 19:SetClanTag("A(%ri/m", "A(%ri/m"); break;
 			case 20:SetClanTag("Astrium", "Astrium"); break;
 			}
-			counter++;*/
-		}
+			counter++;
+		}*/
 
 		long currentTime_ms = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch()).count();
 		static long timeStamp = currentTime_ms;
@@ -174,12 +175,12 @@ public:
 		case 1:
 			if (Spam)
 			{
-				setName("\x01\x0B\x0D""A""\x0D""S""\x0D""T""\x0D""R""\x0D""I""\x0D""U""\x0D""M""\x0D");
+				//setName("\x01\x0B\x0D""A""\x0D""S""\x0D""T""\x0D""R""\x0D""I""\x0D""U""\x0D""M""\x0D");
 				Spam = false;
 			}
 			else
 			{
-				setName(" \x01\x0B\x0D""A""\x0D""S""\x0D""T""\x0D""R""\x0D""I""\x0D""U""\x0D""M""\x0D");
+				//setName(" \x01\x0B\x0D""A""\x0D""S""\x0D""T""\x0D""R""\x0D""I""\x0D""U""\x0D""M""\x0D");
 				Spam = true;
 			}
 			Spam != Spam;
@@ -259,10 +260,10 @@ public:
 		if (!Options.Misc.Misc2.bChatSpam)
 			return;
 
-		std::vector<std::string> chatspam2 =
+		/*std::vector<std::string> chatspam2 =
 		{
-			"Insert pChatSpam Here"
-		};
+			Insert pChatSpam Here
+		};*/
 
 
 		if (GetTickCount() - lastspammed > 800)
