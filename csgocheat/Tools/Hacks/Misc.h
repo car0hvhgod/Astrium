@@ -82,7 +82,7 @@ public:
 			return;
 		if (Options.Misc.Misc1.bClanTag && Options.Misc.Misc1.bCorruption)
 		{
-			static int counter = 0;
+			/*static int counter = 0;
 			static int motion = 0;
 			int ServerTime = (float)Hacks.LocalPlayer->GetTickBase() * Interfaces.pGlobalVars->interval_per_tick;
 
@@ -113,7 +113,7 @@ public:
 			case 19:SetClanTag("A(%ri/m", "A(%ri/m"); break;
 			case 20:SetClanTag("Astrium", "Astrium"); break;
 			}
-			counter++;
+			counter++;*/
 		}
 
 		long currentTime_ms = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch()).count();
@@ -174,12 +174,12 @@ public:
 		case 1:
 			if (Spam)
 			{
-				setName("\x01\x0B\x0D""A""\x0D""S""\x0D""T""\x0D""R""\x0D""I""\x0D""U""\x0D""M""\x0D"");
+				setName("\x01\x0B\x0D""A""\x0D""S""\x0D""T""\x0D""R""\x0D""I""\x0D""U""\x0D""M""\x0D");
 				Spam = false;
 			}
 			else
 			{
-				setName(" \x01\x0B\x0D""A""\x0D""S""\x0D""T""\x0D""R""\x0D""I""\x0D""U""\x0D""M""\x0D"");
+				setName(" \x01\x0B\x0D""A""\x0D""S""\x0D""T""\x0D""R""\x0D""I""\x0D""U""\x0D""M""\x0D");
 				Spam = true;
 			}
 			Spam != Spam;
