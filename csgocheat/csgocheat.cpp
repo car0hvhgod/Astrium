@@ -66,7 +66,7 @@ void WINAPI CheatMain()
 		
 		Hacks.UnHook();
 		Sleep(200);
-		MessageBox(0, "Outdated version detected, please try again later", "Astrium.cc", MB_OK);
+		MessageBox(0, "Outdated version detected, please try again later", "Astrium", MB_OK);
 		SetWindowLongPtr(INIT::Window, GWL_WNDPROC, reinterpret_cast< LONG_PTR >(INIT::OldWindow));
 		Sleep(200);
 
