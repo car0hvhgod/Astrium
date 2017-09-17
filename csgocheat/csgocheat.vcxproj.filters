@@ -351,9 +351,6 @@
     <ClCompile Include="Chams.cpp">
       <Filter>Tools\Hacks</Filter>
     </ClCompile>
-    <ClCompile Include="writer.cpp">
-      <Filter>Utils\COnfig</Filter>
-    </ClCompile>
     <ClCompile Include="CircleStrafer.cpp">
       <Filter>Main Files</Filter>
     </ClCompile>
